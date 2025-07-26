@@ -14,18 +14,18 @@ for (let x = 0; x < 5; x++) {
 console.log("Repetições concluídas.")
 
 // Estrutura de banco de dados: lista de objetos com nome e senha
-type Usuario = {
-    nome: string
-    password: number
-}
+// type Usuario = {
+//     nome: string
+//     password: number
+// }
 
-const bancodedados: Usuario[] = []
+// const bancodedados: Usuario[] = []
 
-for (let x = 0; x < 2; x++) {
-    const nome = prompt("Digite seu nome: ")
-    const password = parseInt(prompt("Digite a senha: "))
+// for (let x = 0; x < 2; x++) {
+//     const nome = prompt("Digite seu nome: ")
+//     const password = parseInt(prompt("Digite a senha: "))
 
-    bancodedados.push({ nome, password })
+//     bancodedados.push({ nome, password })
 
-    console.log("Dados inseridos no banco de dados:", bancodedados)
-}
+//     console.log("Dados inseridos no banco de dados:", bancodedados)
+// }
