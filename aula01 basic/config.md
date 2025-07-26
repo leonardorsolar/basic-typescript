@@ -23,6 +23,18 @@ npm install typescript --save-dev
 npx tsc --init
 ```
 
+Isso aconteceu porque a pasta `node_modules/` **não foi ignorada pelo Git**, ou seja, você provavelmente **cometeu um dos seguintes erros**:
+
+---
+
+`.gitignore`\*
+
+Adicione um arquivo `.gitignore` no **nível raiz do repositório** (ou dentro de `aula01 basic/` se for um repositório separado). Ele **deve conter** pelo menos:
+
+```
+node_modules/
+```
+
 ## ✅ Etapa 2: Criar o arquivo `index.ts`
 
 Crie um arquivo chamado `index.ts` com o seguinte conteúdo:
